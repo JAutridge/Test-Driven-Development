@@ -14,6 +14,6 @@ while True:
     if repeat == "n":
         break
 
-    total_amount = Invoice().totalPurePrice(products)
+total_amount = Invoice().totalPurePrice(products)
 
-    print("Your total pure price is: ", total_amount)
+print("Your total pure price is: ", total_amount)
